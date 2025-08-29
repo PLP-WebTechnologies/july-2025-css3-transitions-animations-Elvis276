@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive Web Page</h1>
+    
+    <!-- Simplified structure with essential elements only -->
+    <div class="box" id="animatedBox">Click me!</div>
+    
+    <div class="counter">
+        <p>Count: <span id="count">0</span></p>
+        <button onclick="updateCounter(1)">+</button>
+        <button onclick="updateCounter(-1)">-</button>
+    </div>
+
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <button type="submit">Submit</button>
+        <p id="message"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
